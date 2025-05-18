@@ -1,0 +1,82 @@
+.p4card-div{
+     width: 1115px;
+     display: flex;
+     gap: 40px;
+     padding:20px;
+  padding-right: 200px;
+  scroll-behavior: smooth;
+   scrollbar-width: none;    
+  -ms-overflow-style: none; 
+  position: relative;
+  top: 240px;
+}
+.p4formcard{
+     position: relative;
+  min-width: 386px;
+  height: 444px;
+  background-size: cover;
+  background-position: center;
+  left: 80px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(69, 68, 68, 0.2);
+  overflow: hidden;
+  border-radius: 10px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.p4formcard:hover {
+ transform: translateY(-25px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.p4formcard .p4d2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(254, 254, 254, 0.5);
+  z-index: 1;
+}
+.p4formcard .p4ch1{
+    color: rgba(51, 51, 51, 1);
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    left:20px;
+    top:15px;
+}
+.star{
+    position:absolute;
+    right: 21px;
+    top:35px;
+}
+
+.student{
+    position: relative;
+    top:100px;
+    left: 20px;
+}
+
+.p4ch12{
+    color:rgba(28, 0, 255, 1);
+    font-family: poppins;
+    font-size:24px;
+    font-weight:600;
+    position: absolute;
+    right:20px;
+    bottom:24px;
+}
+.p4card-below{
+       position: relative;
+  min-width: 386px;
+  height: 444px;
+  background-size: cover;
+  background-position: center;
+  left: 80px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(69, 68, 68, 0.2);
+  overflow: hidden;
+  border-radius: 10px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
