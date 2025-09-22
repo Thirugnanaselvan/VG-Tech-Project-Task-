@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css'
 import Formcard from '../page3/Formcard'
 import scroll from '../assets/scroll.png'
-import Page4 from './page4'
+import Page4 from './page4.jsx'
 function Page3() {
   return (
     <div>
